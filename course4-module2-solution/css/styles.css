@@ -23,16 +23,18 @@ body {
 .section {
   position: relative;
   overflow: auto;
-  background-color: gray;
-  padding: 23px;
+  background-color: #A5A3A3;
+  padding: 20px;
   margin: 15px 12px;
   border: 1px solid black;
 }
 
 .section-title {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  top: -20px;
+  right: -20px;
+  display: inline-block;
+  float: right;
   text-align: center;
   font-size: 1.25em;
   font-weight: bold;
@@ -42,7 +44,8 @@ body {
 }
 
 .section-text {
-  margin-top: 50px;
+  display: inline-block;
+  clear: right;
 }
 
 .pink {
