@@ -1,0 +1,48 @@
+body {
+  padding-top: 70px;
+}
+
+#menu-bar {
+  background-color: #B3B3DA;
+}
+
+#brand-name {
+  color: purple;
+}
+
+#main-content {
+  padding: 15px 8%;
+}
+
+.menu-item {
+  overflow: hidden;
+  padding: 0 20px;
+  background-color: antiquewhite;
+  height: 1000px;
+}
+
+.menu-item h2 {
+  text-align: center;
+}
+
+/********** Tablet and Desktop devices **********/
+@media (max-width: 767px) {
+  #collapsable-nav > ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #F5F5BE;
+  }
+  #collapsable-nav > ul > li {
+    border-bottom: 1px solid rgba(179, 179, 218, 0.5);
+    text-align: center;
+  }
+  #collapsable-nav > ul > li:last-child {
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #collapsable-nav ul {
+    display: none;
+  }
+}
