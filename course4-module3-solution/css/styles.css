@@ -18,11 +18,8 @@ body {
   overflow: hidden;
   padding: 0 20px;
   background-color: antiquewhite;
-  height: 1000px;
-}
-
-.menu-item h2 {
-  text-align: center;
+  height: 1200px;
+  margin: 15px 0;
 }
 
 /********** Tablet and Desktop devices **********/
